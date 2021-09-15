@@ -14,6 +14,13 @@ export default new Router({
       meta: { title: 'Home', icon : 'mdi mdi-home-outline' }
     },
     // {
+    {
+      path: '/grapha',
+      name: 'grapha',
+      component: loadView('Grapha'),
+      meta: { title: 'Grapha', icon : 'mdi mdi-home-outline' }
+    }
+    // {
     //   path: '/about',
     //   name: 'about',
     //   component: loadView('About'),
