@@ -39,11 +39,12 @@
               <i class="mdi mdi-home-outline sidebar-icon" /> Home
             </router-link>
           </li>
-          <li /><li>
-            <router-link to="/grapha">
-              <i class="mdi mdi-home-outline sidebar-icon" /> Graph
+           <li>
+            <router-link to="/readings">
+              <i class="mdi sidebar-icon" /> Readings
             </router-link>
           </li>
+          <li />
           <li>
             <router-link to="/history">
               <i class="mdi sidebar-icon" /> History

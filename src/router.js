@@ -19,6 +19,12 @@ export default new Router({
       component: loadView('History'),
       meta: { title: 'History', icon : 'mdi mdi-dot-outline' }
     },
+    {
+      path: '/readings',
+      name: 'readings',
+      component: loadView('Readings'),
+      meta: { title: 'Readings', icon : 'mdi mdi-home-outline' }
+    },
     // {
     {
       path: '/grapha',
