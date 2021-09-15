@@ -1,6 +1,20 @@
 <template>
 <div class="container ">
 <h1 class="mb-3">History</h1>
+    <div class="mb-2 m-1">
+      <form @submit.prevent="searchForms">
+        <input
+          class="p-2"
+          type="date"
+          v-model="date"
+        >
+        <input
+          class="p-2"
+          type="submit"
+          value="Search!"
+        >
+      </form>
+    </div>
     <table class="table text-center">
     <thead class="table-dark">
         <tr>
