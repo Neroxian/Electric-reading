@@ -64,7 +64,7 @@ export default {
     },   
   methods:{
     GetAllRequests(){
-      console.log("date",this.date)
+      // console.log("date",this.date)
        new MQL()        
         .setActivity('o.[query_1yA3RN7LyOo90lRteIChDYGcha1]')
         .setData({
@@ -77,12 +77,12 @@ export default {
           // console.log(rs);
           let res = rs.getActivity('FetchQueryData', true)
           // console.log(rs.getActivity("FetchQueryData", true));
-          console.log(res);
+          // console.log(res);
           const queryId = Object.keys(res.result)[0]
           if (res.result[queryId] !== null) {
             this.Readings = res.result[queryId][0].Readings
             this.wing = res.result[queryId][0].wing
-            console.log(this.Readings)
+            console.log(this.Readings[0].electricReading)
           } else {
             this.Readings = []
           }
@@ -91,7 +91,7 @@ export default {
     },
     searchForms () {
       this.GetAllRequests()
-      console.log('in search')
+      // console.log('in search')
     },
   }
 }
