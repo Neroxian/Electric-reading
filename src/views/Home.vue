@@ -32,14 +32,14 @@
       </div>
     </form>
     <div class="text-center m-2"><button class="btn btn-success">Add</button></div>
-    <div class="row mt-2 p-3">
+    <!-- <div class="row mt-2 p-3">
         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
           <p>Current day Electricity unit Consumption : ___</p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
           <p>Current day DG unit Consumption : ___</p>
         </div>
-      </div>
+      </div> -->
   </div>
 </template>
 
@@ -52,10 +52,10 @@ export default {
 
 <style>
 .main{
-  padding: 1rem;
+  padding: 2rem;
 }
 h1{
-  font-weight: 500;
+  font-weight: 600;
 }
 .form-control:focus,.form-control:hover,.form-select:focus,.form-select:hover{
   box-shadow: none;

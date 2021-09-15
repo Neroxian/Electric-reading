@@ -13,6 +13,12 @@ export default new Router({
       component: loadView('Home'),
       meta: { title: 'Home', icon : 'mdi mdi-home-outline' }
     },
+    {
+      path: '/history',
+      name: 'history',
+      component: loadView('History'),
+      meta: { title: 'History', icon : 'mdi mdi-dot-outline' }
+    },
     // {
     //   path: '/about',
     //   name: 'about',
